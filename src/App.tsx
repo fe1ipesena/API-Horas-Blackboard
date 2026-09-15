@@ -49,6 +49,10 @@ function App() {
               <p className='text-5x1 font-bold mt-6'>
                 {hours.horas_formatadas}
               </p>
+
+              <p className='text-lg'>
+                Atualizado em: {hours.base_atualizada_em}
+              </p>
             </div>
           ) : (
             <p>Consultando suas horas...</p>
