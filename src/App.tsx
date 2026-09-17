@@ -38,7 +38,7 @@ function App() {
 
           {hours ? (
             <div>
-              <p className='text-2x1 mb-2'>
+              <p className='text-2xl mb-2'>
                 Olá, {hours.nome}
               </p>
 
@@ -46,7 +46,7 @@ function App() {
                 RA: {hours.ra}
               </p>
 
-              <p className='text-5x1 font-bold mt-6'>
+              <p className='text-5xl font-bold mt-6'>
                 {hours.horas_formatadas}
               </p>
 
